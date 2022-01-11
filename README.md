@@ -1,5 +1,5 @@
 # SBA Jenkins Github Python Flask Pipeline
-* **Objective** - Clone and modify this repository locally to ensure that Jenkins can successfully build this project.
+* **Objective** - Clone and modify this repository locally to ensure that Jenkins can successfully build(e.g. run the python script) this project.
 * **Purpose** - To demonstrate continuous integration skillset
 
 
@@ -15,7 +15,7 @@
 ## Instructions
 * Fork and clone this project locally.
 * Modify this project by including a respective `requirements.txt` to download any `pip` dependencies for this python project.
-* Configure a Jenkins pipeline to build this project.
+* Configure a Jenkins pipeline to build this project (e.g. run "python web.py")
 * Upon Jenkins successfully building the project, export the respective `Jenkins` file and add it to the root directory of your local project.
 * `push` your changes to your repository upon completion.
 
@@ -65,3 +65,4 @@
 * from the browser, navigate to the _forked_ project from **your** github account.
 * click the `Pull Requests` tab.
 * select `New Pull Request`
+* take a screenshot of your spinning flasks and send it via vanvas to both Bill and Steve for full credit
